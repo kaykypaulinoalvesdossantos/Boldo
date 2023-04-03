@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none;
+}
+
+
+.body{
+    padding: 60px 100px ;
+
+}
+
+
+.home-page-header{
+    padding: 60px 100px ;
+    background-color: #0A2640; 
+ 
+}
+
+.Logo-Boldo{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+
+}
+
+.Logo-Boldo h1{
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 10px;
+    font-family: 'Manrope', sans-serif;
+    color: white;   
+}
+
+.Logo-Boldo img{
+    width: 25px;
+    height: 33px;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.nav-link ul{
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+}
+
+.nav-link li {
+    padding: 30px; 
+    font-size: 16;   
+}
+
+.nav-link li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+#button-login{ 
+    color: #0A2640; 
+    background-color: white;
+    padding: 8px 40px;
+    border-radius: 24px; 
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+#button-login:hover{
+    outline-style:solid;
+    outline-color: white;
+    outline-width: 2px;
+    background: none;
+    color: white;
+    box-sizing: border-box;
+}
+
+.heder-top{
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heder-top p{
+    text-align: center; 
+    color: #dbdbdb;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    max-width: 700px;
+    
+}
+
+.heder-top h2{
+    font-family: 'Manrope', sans-serif;
+    font-size: 64px;
+    color: #fff;
+    text-align: center; 
+    margin: 20px;
+}
+
+.container-imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.img-dual{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.text-history{
+    display : flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 800px;
+}
+
+.text-history h3{ 
+    font-family: 'Manrope', sans-serif;
+    font-size: 38px;
+    color: #000;
+}
+
+.text-history p{ 
+    color: #777777;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container-nunbers{
+    background: #0A2640;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 30px;
+}
+
+.title-nunbers{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-nunbers p{
+    color: #F1F1F1;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title-nunbers h3{
+    font-family: 'Manrope', sans-serif;
+    font-size: 38px;
+    text-align: center;
+    color: #fff;
+    max-width: 800px;
+}
+
+.container-time{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-titulo-time{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 800px;
+    gap: 30px;
+}
+
+.container-titulo-time p{
+    font-family: 'Open Sans', sans-serif;
+    color: #777777;
+}
+
+.container-titulo-time h3{
+    font-family: 'Manrope', sans-serif;
+    font-size: 38px;
+}
+
+.container-cards-time{
+    display: flex;
+    gap: 50px;
+    margin: 50px;
+}
+
+
+.card-time h3{
+    font-family: 'Manrope', sans-serif;
+    font-size: 28px; 
+    color: #000;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.card-time p{
+    color : #777777;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.conatiner-card-nunbers{
+    display: flex;
+    gap: 140px;
+    align-items: flex-start;
+}
+
+.conatiner-card-nunbers h3{
+    color: #4FE9A4;
+    font-size: 90px;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+.conatiner-card-nunbers p{
+    color: #F1F1F1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+
+
+.contaner-valores{
+    background: #0A2640;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.container-titulo-valores{
+    max-width: 800px;
+    margin-bottom: 50px;
+}
+.container-titulo-valores p{
+    color: #F1F1F1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.container-titulo-valores h3{
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 38px;    
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.conatiner-card-valores{
+    display: flex;
+    margin-bottom: 30px;
+    gap: 40px;
+}
+
+.text-card{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.text-card h3{
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    color: white; 
+    margin-bottom: 30px;
+}
+
+.text-card p{
+    font-family: 'Open Sans', sans-serif;
+    color: #F1F1F1;
+    font-size: 14px;
+
+}
+
+
+
+
+
+
+
+
+
+.container-email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #0A2640;
+}
+
+.container-email p{ 
+    max-width: 700px;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 38px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+
+.form-email input{
+    padding: 12px 120px 12px 32px;
+    border-radius: 100px;
+    outline: none;
+    margin-right: 24px;
+}
+
+.form-email input::placeholder {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.form-email button{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 12px 56px;
+    border-radius: 56px;
+    background: #65E4A3;
+    color: #0A2640;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+
+}
+
+
+.form-email button:hover{
+    outline: solid 2px #65E4A3;
+    background: none;
+    color: #65E4A3;
+}
+
+.container-flooter{
+    display: flex;
+    justify-content: space-between;
+    max-height: 1400px;
+}
+
+.container-footer-descricao{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    justify-content: space-between;
+
+}
+
+
+.container-footer-descricao img{
+    max-width: 156px;
+}
+
+
+.container-footer-descricao p{
+    font-family: 'Open Sans', sans-serif;
+    color: #777777;
+    font-size: 14px;
+}
+
+.container-list-footer{
+    display: flex;
+    gap: 90px;
+}
+
+
+
+.list-footer h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.list-footer ul{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.list-footer li{
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.list-footer li a{
+    color: #777777;
+    text-decoration: none;
+}
+
+.list-footer li span{
+    background: #65E4A3;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 2px 14px;
+    border-radius: 120px;
+    color: #0A2640;
+    margin-left: 15px;
+}
+
